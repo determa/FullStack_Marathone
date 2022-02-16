@@ -1,0 +1,15 @@
+#search-block {
+    display: inline-flex;
+    width: 100%;
+}
+#search, #find {
+    color: green;
+    padding: 0px 10px;
+    height: 2em;
+}
+#search {
+    width: 100%;
+}
+#find:hover, #search:hover {
+    color: red;
+}

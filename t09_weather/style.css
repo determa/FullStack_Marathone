@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.temperature {
+    margin: 0;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+img {
+    width: 75px;
+}
+
+.date {
+    margin: 0;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(64, 149, 181);
+}
+
+.week {
+    display: inline-flex;
+}
+
+.day {
+    margin: 2px;
+    width: 90px;
+    height: 135px;
+    text-align: center;
+}
+
+.day:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

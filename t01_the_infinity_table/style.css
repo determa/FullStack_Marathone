@@ -1,0 +1,44 @@
+table {
+    text-align: center;
+    border-spacing: 0px;
+}
+
+table td {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 10px;
+}
+
+.tbl img {
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+#black {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#orange {
+    background-color: rgb(213, 146, 61);
+}
+
+#green {
+    background-color: rgb(2, 128, 1);
+}
+
+#blue {
+    background-color: rgb(0, 87, 145);
+}
+
+#yellow {
+    background-color: rgb(255, 255, 4);
+}
+
+#red {
+    background-color: rgb(193, 42, 46);
+}
+
+#purple {
+    background-color: rgb(129, 116, 183);
+}

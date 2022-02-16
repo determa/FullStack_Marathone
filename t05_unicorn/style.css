@@ -1,0 +1,14 @@
+#rainbow-block {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#horn-block {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 75px 150px 75px;
+    border-color: transparent transparent #007bff transparent;
+    transform: translateY(-40px) translateX(100px);
+}
