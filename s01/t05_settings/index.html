@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>t05</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <h1>Settings</h1>
+    <div class="settings">
+        <form class="main">
+            <div class="half">
+                <div class="block">
+                    <p>Typeface</p>
+                    <select name="font" id="font">
+                        <option value="Acunim Pro">Acunim Pro</option>
+                        <option value="Comic Sans">Comic Sans</option>
+                        <option value="Times New Roman">Times New Roman</option>
+                    </select>
+                </div>
+                <div class="block">
+                    <p>Weight</p>
+                    <input type="radio" name="radio" id="regular" class="custom-checkbox">
+                    <label for="regular">Regular</label>
+                    <input type="radio" name="radio" id="bold" class="custom-checkbox">
+                    <label for="bold">Bold</label>
+                </div>
+
+                <div class="block">
+                    <p>Size</p>
+                    <input type="range" min="0" max="10" value="4" step="1">
+                    <div class="size_text">
+                        <span>A</span><span>A</span>
+                    </div>
+                </div>
+            </div>
+            <div class="half">
+                <div class="block">
+                    <div class="sld">
+                        <span>Dark UI</span>
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+                <p>Color</p>
+                <div class="colors">
+                    <div class="round">
+                        <input type="checkbox" name="checkbox" id="blue">
+                        <label for="blue" class="blue"></label>
+                    </div>
+                    <div class="round">
+                        <input type="checkbox" name="checkbox" id="aquamarine">
+                        <label for="aquamarine" class="aquamarine"></label>
+                    </div>
+                    <div class="round">
+                        <input type="checkbox" name="checkbox" id="pink">
+                        <label for="pink" class="pink"></label>
+                    </div>
+                    <div class="round">
+                        <input type="checkbox" name="checkbox" id="yellow">
+                        <label for="yellow" class="yellow"></label>
+                    </div>
+                    <div class="round">
+                        <input type="checkbox" name="checkbox" id="orange">
+                        <label for="orange" class="orange"></label>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="btns">
+            <img src="assets/images/artistic-brush.png" alt="bruh">
+            <img src="assets/images/computer-screen.png" alt="comp">
+            <img src="assets/images/user-icon.png" alt="user">
+            <img src="assets/images/sms-speech-bubble.png" alt="sms">
+        </div>
+    </div>
+</body>
+
+</html>

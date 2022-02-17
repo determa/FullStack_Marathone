@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+.main img {
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    margin: 10px 40px;
+}
+
+.main {
+    display: flex;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+}
+.items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(235px, auto));
+    justify-items: center;
+}
+.big_image img {
+    width: 300px;
+    height: 300px;
+}
+.big_image {
+    float: left;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+.item {
+    display: flex;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+}
+
+.item_image {
+    padding: 10px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+
+.item_info {
+    display: grid;
+}
+.description {
+    display: flex;
+}
+
+.description_item {
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin: 0px 40px;
+    padding: 20px;
+}
+.description_item input {
+    width: 80px;
+    height: 40px;
+}
+
+.params {
+    display: grid;
+    gap: 15px;
+    margin-right: 40px;
+}
+
+.main p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.option {
+    display: grid;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav {
+    width: 100%;
+    height: 68px;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    font-weight: 700;
+}
+
+nav ul li {
+    float: left;
+    padding: 25px 45px;
+}
+
+nav ul li:hover {
+    background-color: #4b545f;
+}
+
+nav ul li:hover a {
+    color: #fff;
+}
+
+nav ul li a {
+    display: block;
+    color: #757575;
+    text-decoration: none;
+}
