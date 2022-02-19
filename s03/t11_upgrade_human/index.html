@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Upgrade Human</title>
+    <meta name="description" content="t11. Upgrade Human">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Upgrade Human</h1>
+        <div class="superhero">
+            <img id="human" src="assets/images/human.png" alt="img">
+        </div>
+        <div class="description">
+            <p>First Name: <span id="firstName"></span></p>
+            <p>Last Name: <span id="lastName"></span></p>
+            <p>Gender: <span id="gender"></span></p>
+            <p>Age: <span id="age"></span></p>
+            <p>Calories <span id="calories"></span></p>
+        </div>
+        <div class="messages" id="message">
+            Hello
+        </div>
+        <div class="buttons">
+            <button id="sleep" onclick="human.sleepFor()">Sleep</button>
+            <button id="fight" onclick="human.fight()">Fight</button>
+            <button id="feed" onclick="human.feed()">Feed</button>
+            <button id="evil" onclick="human.fightWithEvil()" style="display: none;">Fight With Evil</button>
+            <button id="fly" onclick="human.fly()" style="display: none;">Fly</button>
+            <button id="super">Turn into superhero</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
