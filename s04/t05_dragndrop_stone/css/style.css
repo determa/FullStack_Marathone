@@ -17,7 +17,7 @@ body {
     top: 5%;
 }
 
-.stone[value="off"] {
+.stone[data-value="off"] {
     border: 2px dashed black;
 }
 

@@ -4,7 +4,7 @@ let state = {
 }
 
 area.addEventListener("mousedown", event => {
-    if (event.target && event.target.classList.contains("stone") && event.target.getAttribute("value") == "on") {
+    if (event.target && event.target.classList.contains("stone") && event.target.getAttribute("data-value") == "on") {
         event.target.style.cursor = "none";
         state.target = event.target;
         state.offsetX = event.offsetX;
@@ -26,9 +26,9 @@ area.addEventListener("mousemove", e => {
 
 area.addEventListener("dblclick", event => {
     if (event.target && event.target.classList.contains("stone")) {
-        if (event.target.getAttribute("value") == "on")
-            event.target.setAttribute("value", "off");
+        if (event.target.getAttribute("data-value") == "on")
+            event.target.setAttribute("data-value", "off");
         else
-            event.target.setAttribute("value", "on");
+            event.target.setAttribute("data-value", "on");
     }
 });
