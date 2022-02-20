@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Notes with local storage</title>
+    <meta name="description" content="t09. Notes with local storage">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <input id="add-btn" type="button" onclick="addToStorage()" value="Add to storage">
+    <input id="clear-btn" type="button" onclick="clearStorage()" value="Clear storage">
+
+    <div class="input-field">
+        <label class="labl" for="newNote">Text input:</label><br>
+        <textarea id="newNote" rows="15" cols="70" wrap="soft" maxlength="500"></textarea>
+    </div>
+
+    <div class="arc">
+        <p class="labl">Note archive:</p>
+        <div class="archive"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

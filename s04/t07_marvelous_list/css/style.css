@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+
+.flx, #film-block {
+	display: flex;
+	flex-direction: row;
+}
+
+.flx {
+    background-color: rgb(230, 230, 230);
+}
+
+img {
+    height: 400px;
+    width: 270px;
+}
+
+button {
+    width: 150px;
+    padding: 20px 5px;
+    font-size: 1em;
+    background-color: rgb(230, 230, 230);
+    border: none;
+}
+.btn {
+    border-left: 3px solid rgb(230, 230, 230);
+}
+.choosen {
+    border-left: 3px solid rgb(57, 131, 209);
+}
+.btn-field {
+    width: 150px;
+    text-align: center;
+    border-right: 2px solid white;
+}
+
+#film-block {
+    padding: 10px;
+}
+
+.flx > p {
+    background-color: rgb(57, 131, 209);
+    margin: 5px;
+    color: white;
+    padding: 5px 10px;
+}
+

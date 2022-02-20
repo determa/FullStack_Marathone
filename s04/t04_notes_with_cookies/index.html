@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Notes with cookies</title>
+    <meta name="description" content="t04. Notes with cookies">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="buttons">
+            <button id="add-btn" onclick="addToCookies()">Add to cookies</button>
+            <button id="clear-btn" onclick="clearCookies()">Clear cookies</button>
+        </div>
+        <div class="field">
+            <label class="labl" for="text">Text input:</label><br>
+            <textarea id="text" rows="15" cols="70" wrap="soft" maxlength="500"></textarea>
+        </div>
+
+        <div class="field">
+            <span class="labl">Note archive:</span>
+            <div class="archive"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

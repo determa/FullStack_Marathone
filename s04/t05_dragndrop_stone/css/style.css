@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#area {
+    width: 100%;
+    height: 100vh;
+}
+
+.stone {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    transform: rotate(45deg);
+    background-color: pink;
+    top: 5%;
+}
+
+.stone[value="off"] {
+    border: 2px dashed black;
+}
+
+#red {
+    left: 5%;
+    background-color: red;
+}
+
+#green {
+    left: 10%;
+    background-color: green;
+}
+
+#blue {
+    left: 15%;
+    background-color: blue;
+}
+
+#yellow {
+    left: 20%;
+    background-color: orange;
+}
+
+#pink {
+    left: 25%;
+    background-color: palevioletred;
+}
+
+#purple {
+    left: 30%;
+    background-color: rebeccapurple;
+}

@@ -1,0 +1,30 @@
+.input-field {
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    margin: 10px;
+}
+
+.arc {
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    margin: 10px;
+}
+
+.labl {
+    font-size: 1.1em;
+    color: royalblue;
+}
+
+#add-btn {
+    background-color: rgb(127, 204, 202);
+    border: 0px solid;
+    padding: 5px 20px;
+}
+
+#clear-btn {
+    background-color: rgb(240, 240, 240);
+    border: 0px solid;
+    padding: 5px 20px;
+    margin-left: 350px;
+}
+

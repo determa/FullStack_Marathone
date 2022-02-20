@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin: 10px;
+    font-family: Lato;
+}
+
+.field {
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.labl {
+    font-size: 1.1em;
+    color: royalblue;
+    margin-bottom: 5px;
+}
+
+#add-btn {
+    background-color: rgb(127, 204, 202);
+    border: 0px solid;
+    padding: 5px 20px;
+}
+
+#clear-btn {
+    background-color: rgb(240, 240, 240);
+    border: 0px solid;
+    padding: 5px 20px;
+}
