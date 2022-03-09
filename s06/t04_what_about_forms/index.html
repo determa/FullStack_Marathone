@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>What about forms?</title>
+    <meta name="description" content="t04. What about forms?">
+</head>
+
+<body>
+    <h1>What Thanos did for the Soul Stone?</h1>
+    <form name="questions">
+        <input type="radio" id="first" name="quest">
+        <label for="first">Jumped from the mountain</label>
+        <br>
+        <input type="radio" id="second" name="quest" checked>
+        <label for="second">Made stone keeper to jump from the mountain</label>
+        <br>
+        <input type="radio" id="third" name="quest">
+        <label for="third">Pushed Gamora off the mountain</label>
+    </form>
+    <br>
+    <button onclick="answer()">I made a choice!</button>
+    <br>
+    <div id="answer"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
