@@ -1,0 +1,8 @@
+.DS_Store
+._.DS_Store
+.vscode
+my_test.js
+node_modules
+clear.sql
+test.sql
+test.js

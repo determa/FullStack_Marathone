@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(1, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+    height: 100vh;
+    font-family: "Lato", "Aril", sans-serif;
+    margin: 0;
+}
+
+input {
+    background: none;
+    border: none;
+    color: #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-section {
+    margin: 0px 0px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.input-area {
+    padding: 8px;
+}
+
+.btn {
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    background: none;
+    border: 1px solid #ddd;
+    font-weight: 300;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 5px #000;
+    transition: ease-in 0.2s;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+i {
+    color: #ddd;
+    margin: 0 8px 0 0;
+}
+
+.question {
+    display: inline-block;
+    color: #ddd;
+    font-size: 12px;
+}
+
+.reg-btn {
+    color: #ddd;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.question-box {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#success-box {
+    width: 100%;
+    text-align: center;
+}

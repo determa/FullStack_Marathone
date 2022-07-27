@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>A new set</title>
+    <meta name="description" content="forms">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+</head>
+
+<body>
+    <form class="login-box" action="/registration" method="POST">
+        <div class="input-section">
+            <i class="far fa-user"></i>
+            <input class="input-area" type="text" name="login" placeholder="Login">
+        </div>
+        <div class="input-section">
+            <i class="fa fa-user-secret"></i>
+            <input class="input-area" type="text" name="full_name" placeholder="Full name">
+        </div>
+        <div class="input-section">
+            <i class="fas fa-lock"></i>
+            <input class="input-area" type="password" name="password" placeholder="Password">
+        </div>
+        <div class="input-section">
+            <i class="fas fa-lock"></i>
+            <input class="input-area" type="password" name="confirmPassword" placeholder="Confirm Password">
+        </div>
+        <div class="input-section">
+            <i class="far fa-envelope"></i>
+            <input class="input-area" type="email" name="email" placeholder="Email">
+        </div>
+        <button class="btn" id="login-btn">Register</button>
+        <!-- <div class="question-box">
+            <p class="question">Not a memeber?</p><a class="reg-btn" href="register">Register</a>
+        </div> -->
+        <div class="question-box">
+            <p class="question">Have account?</p><a class="reg-btn" href="/login">Sign In</a>
+        </div>
+        <div class="question-box">
+            <p class="question">Forgot password?</p><a class="reg-btn" href="/remind">Remind</a>
+        </div>
+        <div id="success-box"></div>
+    </form>
+</body>
+
+</html>

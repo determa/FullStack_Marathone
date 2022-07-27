@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "jsdom": "^19.0.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.5"
+  },
+  "name": "t02_password_reminder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ybobrov",
+  "license": "ISC",
+  "description": ""
+}
